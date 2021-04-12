@@ -1,0 +1,367 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-font-family: Roboto;
+  --primary-font-style: normal;
+}
+
+/* Roboto 700
+Raleway 400, 500, 700, 900
+font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+body {
+  color: var(--primary-text-color);
+}
+
+.order-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+
+.block-hero {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  background: #ececec;
+}
+.accent-logo {
+  color: var(--accent-text-color);
+}
+
+.nav {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.nav-logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-studia {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.nav-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-kontakty {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.e-mail {
+  position: absolute;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.telephone {
+  position: absolute;
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.block-hero {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  margin: 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+h2 {
+  font-family: var(--primary-font-family)
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--primary-font-family);
+  Font size: 14px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+/* особенности */
+.our-strong-sides p {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  /* Line height: 146% */
+  box-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03;
+  fill: solid;
+  color: #757575;
+}
+
+        .feature-01 {
+        position: absolute;
+        width: 270px;
+        height: 101px;
+        left: 215px;
+        top: 774px;
+        }
+        .feature-02 {
+        position: absolute;
+        width: 270px;
+        height: 101px;
+        left: 515px;
+        top: 774px;
+        }
+        .feature-03 {
+        position: absolute;
+        width: 270px;
+        height: 101px;
+        left: 815px;
+        top: 774px;
+        }
+        .feature-04 {
+        position: absolute;
+        width: 270px;
+        height: 101px;
+        left: 1115px;
+        top: 774px;
+        }
+
+        /* чем мы занимаемся */
+.what-we-do ul {
+  display: inline-block;
+}
+        .box-01 {
+        position: absolute;
+        width: 370px;
+        height: 294px;
+        left: 215px;
+        top: 1061px;
+        }
+        .box-02 {
+        position: absolute;
+        width: 370px;
+        height: 294px;
+        left: 615px;
+        top: 1061px;
+        }
+        .box-03 {
+        position: absolute;
+        width: 370px;
+        height: 294px;
+        left: 1015px;
+        top: 1061px;
+        }
+
+/* наша команда */
+.our-team ul {
+  display: inline-block;
+}
+        .our-team-member-01 {
+        position: absolute;
+        width: 270px;
+        height: 368px;
+        left: 215px;
+        top: 1635px;
+        }
+
+        .our-team-member-02 {
+        position: absolute;
+        width: 270px;
+        height: 368px;
+        left: 515px;
+        top: 1635px;
+        }
+        .our-team-member-03 {
+        position: absolute;
+        width: 270px;
+        height: 368px;
+        left: 815px;
+        top: 1635px;
+        }
+        .our-team-member-04 {
+        position: absolute;
+        width: 270px;
+        height: 368px;
+        left: 1115px;
+        top: 1635px;
+        }
+
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.footer-logo {position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;}
+
+.footer-address a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
