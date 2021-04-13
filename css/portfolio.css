@@ -1,0 +1,70 @@
+h4 {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+p {
+  font-family: roboto;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.radiobuttons-set li {
+  display: inline-block;
+  padding: 0;
+  margin 8px;
+  
+}
+
+/* filter active bg-color 2196F3 text-color ffffff */
+
+button {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03;
+  color: #212121;
+  background-color: #F5F4FA;
+border: none;}
+
+.button-01 { 
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+}
+
+.button-02 {position: absolute;
+width: 128px;
+height: 38px;
+left: 576px;
+top: 174px;}
+
+.button-03 {position: absolute;
+width: 145px;
+height: 38px;
+left: 712px;
+top: 174px;
+}
+
+.button-04 {
+position: absolute;
+width: 103px;
+height: 38px;
+left: 865px;
+top: 174px;
+}
+
+.button-05 {position: absolute;
+width: 130px;
+height: 38px;
+left: 976px;
+top: 174px;
+}
