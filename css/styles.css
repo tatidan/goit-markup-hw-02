@@ -21,12 +21,32 @@ body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
-  font-style: var var(--primary-font-style);
+  font-style: var(--primary-font-style);
 }
 
-.accent-logo {
+.site-nav .logo,
+.site-nav .accent-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.site-nav .logo {
+  color: var(--primary-text-color);
+}
+.site-nav .accent-logo {
   color: var(--accent-text-color);
 }
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-text-color);
@@ -35,11 +55,25 @@ body {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
-
-/* .contacts-nav:hover,
-.contacts-nav:focus {
+.site-nav .link.current:active {
   color: var(--accent-text-color);
-} */
+}
+
+.contacts-nav {
+  text-align: right;
+}
+.contacts-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-text-color);
+}
 
 .list {
   list-style: none;
