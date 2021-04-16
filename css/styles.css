@@ -257,9 +257,9 @@ border: none;}
 .button:hover, .button:focus {color:  var(--accent-text-color);}
 
 
-.button:active {
+/* .button:active {
   color: var(--white-color); 
-  background-color: #2196F3;}
+  background-color: #2196F3;} */
 
 
 /* end of portfolio page */
